@@ -1,0 +1,10 @@
+permissions:
+  ignoreUrls:
+    - /login
+    - /register
+    - /resetPassword
+    - /getImgCode
+    - /getMsgCode
+    - /saveShop
+    - /test
+    - /kcallme/admin/**

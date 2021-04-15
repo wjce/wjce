@@ -1,0 +1,22 @@
+#spring:
+#  profiles:
+#    active: dev
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+##        shared-configs:
+##          - dataId: jobs.yml
+##            refresh: true
+##        refreshableDataids: jobs.yml
+#        refresh-enabled: true
+#        file-extension: yml
+#        name: nacos-config
+#        extension-configs:
+#          - dataId: test.yml
+#            refresh: true
+#        username: nacos
+#        password: nacos
+##        file-extension: nacos-config
+##  application:
+##    name: nacos-config
